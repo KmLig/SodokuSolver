@@ -1,0 +1,87 @@
+# --- Operating System ---
+# Ignore system files from macOS and Windows
+.DS_Store
+Thumbs.db
+
+# --- Visual Studio Files ---
+.vscode/
+.vs/
+.idea/
+
+# --- Build Output Directories ---
+# Ignore build output directories like bin/ and obj/
+**/bin/
+**/obj/
+**/out/
+
+# --- Project Settings ---
+# Ignore temporary files, IDE configuration, and user-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.csproj.user
+
+# --- Log, Dump, and Backup Files ---
+*.log
+*.tlog
+*.pdb
+*.pidb
+*.mdb
+*.svclog
+*.orig
+*.bak
+*.swp
+*.sln.docstates
+
+# --- Lock Files and Dependency Management ---
+# Ignore package manager lock files if not needed
+project.lock.json
+project.fragment.lock.json
+*.nuget.props
+*.nuget.targets
+
+# --- NuGet ---
+# Ignore folders with downloaded NuGet packages
+packages/
+*.nupkg
+*.snupkg
+
+# --- Publish Files ---
+# Ignore publish directories when deploying a .NET application
+**/publish/
+**/deploy/
+
+# --- Configuration Files ---
+# Keep appsettings files, but ignore sensitive or local ones
+appsettings.*.local.json
+appsettings.Development.json
+appsettings.*.env
+
+# --- Git Temporary Files ---
+# Git temporary files
+*.orig
+.git/
+
+# --- Node.js ---
+# Ignore npm folders and files if using front-end packages
+node_modules/
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# --- DevExtreme and Cache Directories ---
+# Ignore cache and output files from DevExtreme and other tools
+.devextreme/
+.cache/
+
+# --- Documentation ---
+# Ignore temporary and backup files for documents
+*.docx~
+*.xlsx~
+*.pptx~
+
+# --- Solution Folder ---
+# Ensure that the root solution directory is pushed to Git
+*.sln
+*.csproj
